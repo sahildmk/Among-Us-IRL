@@ -1,5 +1,6 @@
 import React from 'react';
 import './LoginStyle.css';
+import Users from '../loginFile.json';
 
 function LoginPage() {
     const handleLogin = event => {
@@ -7,6 +8,14 @@ function LoginPage() {
         const loginForm = document.forms.login;
         const uName = loginForm.username.value;
         const pWord = loginForm.password.value;
+        const user = Users.find(user => user.username === uName);
+        if (user === undefined) {
+            alert("User not found!")
+        } else if (user.password !== pWord) {
+            alert("Password is incorrect!")
+        } else {
+
+        }
     };
 
     return (
