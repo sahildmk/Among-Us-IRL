@@ -3,13 +3,14 @@
     src: url('../Fonts/SecularOne-Regular.ttf');
 }
 
-#page {
+.page {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'SecularOne';
     font-weight: bold;
     margin-top: 8%;
+    color: white;
 }
 
 h1 {
@@ -50,6 +51,7 @@ input {
     border-radius: 10px;
     border-style: solid;
     border-color: #333333;
+    padding-left: 10px
 }
 
 input:focus {

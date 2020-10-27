@@ -1,7 +1,8 @@
 [
     {
         "username": "sahil",
-        "password": "password"
+        "password": "password",
+        "role": "crewmate"
     },
     {
         "username": "mehak",
