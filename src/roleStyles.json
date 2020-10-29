@@ -1,0 +1,26 @@
+{
+	"Impostor": {
+		"bkgColor": {
+			"backgroundColor": "#C81919"
+		},
+		"txtColor": {
+			"color": "#C81919"
+		}
+	},
+	"Crewmate": {
+		"bkgColor": {
+			"backgroundColor": "#18ADCE"
+		},
+		"txtColor": {
+			"color": "#18ADCE"
+		}
+	},
+	"admin": {
+		"bkgColor": {
+			"backgroundColor": "#8122ec"
+		},
+		"txtColor": {
+			"color": "#8122ec"
+		}
+	}
+}
