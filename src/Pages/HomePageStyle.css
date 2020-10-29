@@ -33,10 +33,73 @@
     flex: 7;
 }
 
-p .crewmate {
-    color: #18ADCE;
+.reportPopUp {
+    position: fixed;
+    transform: translate(-50%, 50%);
+    top: 25%;
+    left: 50%;
+    background-color: #2b2b2b;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid;
 }
 
-div .crewmate {
-    background-color: #18ADCE;
+.reportForm {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.lbl {
+    padding-right: 20px;
+}
+
+.reportBtn {
+    margin: 20px 10px 0 10px;
+    font-family: 'SecularOne';
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 10px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-color: black;
+}
+
+.gridContainer {
+    display: block;
+}
+
+#playerGrid {
+    margin-top: 50px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: min-content;
+    justify-content: center;
+    /* background-color: white; */
+    grid-gap: 5px;
+}
+
+.gridItem {
+    padding: 15px 40px 15px 40px;
+    border: 5px solid white;
+    font-size: 30px;
+}
+
+.alive {
+    color: #52ff5b;
+}
+
+.dead {
+    color: #f82626;
+    text-decoration: line-through white;
 }

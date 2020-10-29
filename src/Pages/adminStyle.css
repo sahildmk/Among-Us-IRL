@@ -1,0 +1,8 @@
+#homePage {
+    margin-top: 0;
+    display: flex;
+    font-family: 'SecularOne';
+    font-weight: bold;
+    color: #8122ec;
+    flex-direction: column;
+}

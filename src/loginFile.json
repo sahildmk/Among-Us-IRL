@@ -1,19 +1,56 @@
 [
     {
+        "username": "admin",
+        "password": "2709",
+        "role": "admin",
+        "alive": true
+    },
+    {
         "username": "sahil",
-        "password": "password",
-        "role": "crewmate"
+        "password": "5494",
+        "role": "Crewmate",
+        "alive": "alive"
     },
     {
         "username": "mehak",
-        "password": "password"
-    },
-    {
-        "username": "rishav",
-        "password": "password"
+        "password": "4703",
+        "role": "Crewmate",
+        "alive": "alive"
     },
     {
         "username": "eshaa",
-        "password": "password"
+        "password": "9028",
+        "role": "Impostor",
+        "alive": "alive"
+    },
+    {
+        "username": "rishav",
+        "password": "4169",
+        "role": "Crewmate",
+        "alive": "alive"
+    },
+    {
+        "username": "anoushka",
+        "password": "4114",
+        "role": "Crewmate",
+        "alive": "alive"
+    },
+    {
+        "username": "vijaishree",
+        "password": "7976",
+        "role": "Crewmate",
+        "alive": "alive"
+    },
+    {
+        "username": "sahana",
+        "password": "6034",
+        "role": "Impostor",
+        "alive": "alive"
+    },
+    {
+        "username": "ankit",
+        "password": "4398",
+        "role": "Crewmate",
+        "alive": "alive"
     }
 ]
