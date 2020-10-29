@@ -1,0 +1,82 @@
+{
+    "users": [
+        {
+            "id": "admin",
+            "password": "2709",
+            "role": "admin",
+            "alive": true
+        },
+        {
+            "id": "sahil",
+            "password": "3232",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "mehak",
+            "password": "4255",
+            "role": "Impostor",
+            "alive": "alive"
+        },
+        {
+            "id": "eshaa",
+            "password": "4506",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "rishav",
+            "password": "7941",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "anoushka",
+            "password": "2941",
+            "role": "Impostor",
+            "alive": "alive"
+        },
+        {
+            "id": "vijaishree",
+            "password": "2613",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "sahana",
+            "password": "4384",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "ankit",
+            "password": "8407",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "anoushka",
+            "password": "6908",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "vedant",
+            "password": "1200",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "derek",
+            "password": "8054",
+            "role": "Crewmate",
+            "alive": "alive"
+        },
+        {
+            "id": "abhi",
+            "password": "1827",
+            "role": "Crewmate",
+            "alive": "alive"
+        }
+    ]
+}
